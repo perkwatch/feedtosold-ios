@@ -232,6 +232,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.getperkwatch.feedtosold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "FeedToSold App Store";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -258,6 +259,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.getperkwatch.feedtosold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "FeedToSold App Store";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
