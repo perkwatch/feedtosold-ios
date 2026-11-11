@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70000000000000000000030 /* FeedToSoldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000010 /* FeedToSoldApp.swift */; };
+		F70000000000000000000031 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000011 /* Models.swift */; };
+		F70000000000000000000032 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000012 /* Keychain.swift */; };
+		F70000000000000000000033 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000013 /* APIClient.swift */; };
+		F70000000000000000000034 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000014 /* AuthView.swift */; };
+		F70000000000000000000035 /* MainTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000015 /* MainTabs.swift */; };
+		F70000000000000000000036 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000016 /* HomeView.swift */; };
+		F70000000000000000000037 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000017 /* ProductsView.swift */; };
+		F70000000000000000000038 /* AgentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000018 /* AgentView.swift */; };
+		F70000000000000000000039 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70000000000000000000019 /* PlanView.swift */; };
+		F7000000000000000000003A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7000000000000000000001A /* SettingsView.swift */; };
+		F7000000000000000000003B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7000000000000000000001B /* Assets.xcassets */; };
+		F7000000000000000000003C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7000000000000000000001D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F70000000000000000000010 /* FeedToSoldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedToSoldApp.swift; sourceTree = "<group>"; };
+		F70000000000000000000011 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F70000000000000000000012 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		F70000000000000000000013 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F70000000000000000000014 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F70000000000000000000015 /* MainTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabs.swift; sourceTree = "<group>"; };
+		F70000000000000000000016 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F70000000000000000000017 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		F70000000000000000000018 /* AgentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentView.swift; sourceTree = "<group>"; };
+		F70000000000000000000019 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		F7000000000000000000001A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F7000000000000000000001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7000000000000000000001C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7000000000000000000001E /* FeedToSold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedToSold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				F70000000000000000000004 /* FeedToSold */,
+				F70000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70000000000000000000004 /* FeedToSold */ = {
+			isa = PBXGroup;
+			children = (
+				F70000000000000000000010 /* FeedToSoldApp.swift */,
+				F70000000000000000000011 /* Models.swift */,
+				F70000000000000000000012 /* Keychain.swift */,
+				F70000000000000000000013 /* APIClient.swift */,
+				F70000000000000000000014 /* AuthView.swift */,
+				F70000000000000000000015 /* MainTabs.swift */,
+				F70000000000000000000016 /* HomeView.swift */,
+				F70000000000000000000017 /* ProductsView.swift */,
+				F70000000000000000000018 /* AgentView.swift */,
+				F70000000000000000000019 /* PlanView.swift */,
+				F7000000000000000000001A /* SettingsView.swift */,
+				F7000000000000000000001B /* Assets.xcassets */,
+				F7000000000000000000001D /* LaunchScreen.storyboard */,
+			);
+			path = FeedToSold;
+			sourceTree = "<group>";
+		};
+		F70000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7000000000000000000001E /* FeedToSold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70000000000000000000002 /* FeedToSold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70000000000000000000051 /* Build configuration list for PBXNativeTarget "FeedToSold" */;
+			buildPhases = (
+				F70000000000000000000020 /* Sources */,
+				F70000000000000000000021 /* Frameworks */,
+				F70000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedToSold;
+			productName = FeedToSold;
+			productReference = F7000000000000000000001E /* FeedToSold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F70000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F70000000000000000000050 /* Build configuration list for PBXProject "FeedToSold" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70000000000000000000003;
+			productRefGroup = F70000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70000000000000000000002 /* FeedToSold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7000000000000000000003C /* LaunchScreen.storyboard in Resources */,
+				F7000000000000000000003B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70000000000000000000030 /* FeedToSoldApp.swift in Sources */,
+				F70000000000000000000031 /* Models.swift in Sources */,
+				F70000000000000000000032 /* Keychain.swift in Sources */,
+				F70000000000000000000033 /* APIClient.swift in Sources */,
+				F70000000000000000000034 /* AuthView.swift in Sources */,
+				F70000000000000000000035 /* MainTabs.swift in Sources */,
+				F70000000000000000000036 /* HomeView.swift in Sources */,
+				F70000000000000000000037 /* ProductsView.swift in Sources */,
+				F70000000000000000000038 /* AgentView.swift in Sources */,
+				F70000000000000000000039 /* PlanView.swift in Sources */,
+				F7000000000000000000003A /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7000000000000000000001D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7000000000000000000001C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70000000000000000000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70000000000000000000041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70000000000000000000042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FeedToSold;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getperkwatch.feedtosold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "FeedToSold App Store";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70000000000000000000043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FeedToSold;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getperkwatch.feedtosold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "FeedToSold App Store";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70000000000000000000050 /* Build configuration list for PBXProject "FeedToSold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70000000000000000000040 /* Debug */,
+				F70000000000000000000041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70000000000000000000051 /* Build configuration list for PBXNativeTarget "FeedToSold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70000000000000000000042 /* Debug */,
+				F70000000000000000000043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70000000000000000000001 /* Project object */;
+}
